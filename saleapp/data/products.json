@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 7 Plus",
+    "description": "Apple, 32GB, RAM: 3GB, iOS13",
+    "price": 17000000,
+    "image": "images/1.jpg",
+    "category_id": 1  
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S21",
+    "description": "Samsung, 128GB, RAM: 8GB, Android 11",
+    "price": 21000000,
+    "image": "images/2.jpg",
+    "category_id": 1 
+  },
+  {
+    "id": 3,
+    "name": "MacBook Air M2",
+    "description": "Apple, 256GB SSD, RAM: 8GB, macOS",
+    "price": 28990000,
+    "image": "images/3.jpg",
+    "category_id": 2 
+  },
+  {
+    "id": 4,
+    "name": "Dell Inspiron 15",
+    "description": "Dell, 512GB SSD, RAM: 8GB, Windows 11",
+    "price": 15990000,
+    "image": "images/4.jpg",
+    "category_id": 2  
+  },
+  {
+    "id": 5,
+    "name": "iPad Air 5",
+    "description": "Apple, 64GB, RAM: 8GB, iPadOS",
+    "price": 16990000,
+    "image": "images/5.jpg",
+    "category_id": 3  
+  },
+  {
+    "id": 6,
+    "name": "Samsung Galaxy Tab S8",
+    "description": "Samsung, 128GB, RAM: 8GB, Android 12",
+    "price": 18990000,
+    "image": "images/6.jpg",
+    "category_id": 3  
+  },
+  {
+    "id": 7,
+    "name": "Apple Watch Series 8",
+    "description": "Apple, 41mm, GPS, watchOS",
+    "price": 11990000,
+    "image": "images/7.jpg",
+    "category_id": 4  
+  },
+  {
+    "id": 8,
+    "name": "Xiaomi Mi Band 8",
+    "description": "Xiaomi, OLED, Bluetooth 5.1",
+    "price": 990000,
+    "image": "images/8.jpg",
+    "category_id": 4  
+  },
+  {
+    "id": 9,
+    "name": "Tai nghe AirPods Pro",
+    "description": "Apple, Bluetooth, Chống ồn chủ động",
+    "price": 4990000,
+    "image": "images/9.jpg",
+    "category_id": 5  
+  },
+  {
+    "id": 10,
+    "name": "Sạc dự phòng Anker 10000mAh",
+    "description": "Anker, 10000mAh, Power Delivery",
+    "price": 690000,
+    "image": "images/10.jpg",
+    "category_id": 5  
+  }
+]

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CChi tiet san pham</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1 class="subject">CHI TIET SAN PHAM</h1>
+    <div class="container flex">
+        <div>
+            <img src="{{ url_for('static', filename=product.image) }}" alt="{{ product.name }}" width="300">
+        </div>
+        <div>
+            <h2>
+                {{ product.name }}
+            </h2>
+            <p>
+                <strong>Ma san pham:</strong> {{ product.id }}
+            </p>
+            <p>
+                <strong>Mo ta:</strong> {{ product.description }}
+            </p>
+            <p>
+                <strong>Gia ban:</strong> {{ "{:,.1f}".format(product.price) }} VND
+            </p>
+        </div>
+    </div>
+</body>
+</html>

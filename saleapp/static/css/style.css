@@ -1,0 +1,23 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1.subject {
+    text-align: center;
+}
+
+div.container {
+    width: 80%;
+    margin: 0 auto;
+}
+table.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

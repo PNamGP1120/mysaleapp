@@ -1,0 +1,27 @@
+{% extends "layout/base.html" %}
+
+{% block title %}Dang ky tai khoan{% endblock %}
+
+{% block content %}
+<h1 class="subject">DANG NHAP TAI KHOAN</h1>
+
+{% if err_msg %}
+<div class="alert alert-danger" role="alert">
+    <h3>{{ err_msg }}</h3>
+</div>
+{% endif %}
+
+
+<form action="{{ url_for('user_signin') }}" method="post">
+    <div class="form-group">
+        <label for="username">Ten dang nhap:</label>
+        <input type="text" class="form-control" id="username" name="username" required>
+    </div>
+    <div class="form-group">
+        <label for="password">Mat khau:</label>
+        <input type="password" class="form-control" id="password" name="password" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Dang nhap</button>
+</form>
+<br><br>
+{% endblock %}
